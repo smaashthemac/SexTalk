@@ -6,8 +6,11 @@
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px !important;
+    color: #272727;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
 } 
 
 p {
@@ -32,6 +35,13 @@ h3#work-process {
     bottom: 10px;
 }
 
+#work-process {
+    padding: 100px 0 50px;
+    background: #00B6F1 !important;
+    background-size: cover;
+    color: #fff;
+}
+
 /*********** END CHRISTINA CUSTOM CSS *******/
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
@@ -46,7 +56,7 @@ Author URL: http://shapebootstrap.net
 **************************/
 body {
   padding-top: 100px;
-  background: #F3F4C1;
+  background: #E5AE4A;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #64686d;
@@ -92,6 +102,7 @@ hr {
   margin-bottom: 50px;
 }
 .section-header .section-title {
+  font-family: 'Raleway';
   font-size: 44px;
   color: #272727;
   text-transform: uppercase;
@@ -204,7 +215,7 @@ ul.nostyle i {
 }
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
-    background: #F3F4C1;
+    background: #fbfcd1;
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
@@ -406,7 +417,7 @@ ul.nostyle i {
 }
 #portfolio {
   padding: 100px 0;
-  background: #F3F4C1;
+  background: #fbfcd1;
 }
 #portfolio .portfolio-filter {
   list-style: none;
