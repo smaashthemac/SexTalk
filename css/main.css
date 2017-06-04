@@ -8,7 +8,7 @@
 h2 {
   font-family: 'Raleway';
   font-size: 44px;
-    color: #272727;
+    color: #fff;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 20px;
@@ -59,7 +59,7 @@ Author URL: http://shapebootstrap.net
 **************************/
 body {
   padding-top: 100px;
-  background: #E5AE4A;
+  background: #FBAE57;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #64686d;
@@ -605,7 +605,7 @@ ul.nostyle i {
   width: 80px;
   height: 80px;
   line-height: 80px;
-  border: 2px solid #45aed6;
+  border: 2px solid #fff;
   border-radius: 100px;
   position: relative;
 }
