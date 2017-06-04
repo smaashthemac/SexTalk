@@ -25,6 +25,16 @@ h2 {
     margin: 0 0 20px;
 } 
 
+h2.grade-header {
+  font-family: 'Raleway';
+  font-size: 65px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 50px;
+    margin: 0 0 20px;
+} 
+
 p {
   font-family: 'Dosis', sans-serif; 
   font-size: 19px;
@@ -382,7 +392,7 @@ body {
   background: #FBAE57;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #64686d;
+  color: #000;
   line-height: 26px;
 }
 
