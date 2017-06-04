@@ -310,6 +310,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcd1', end
   color: #fff;
 }
 
+#journey {
+  text-align: center;
+  padding-top: 10px;
+}
+
+a#journeyLink:hover {
+  text-decoration: underline #fff !important;
+
+}
 
 /*********** END CHRISTINA CUSTOM CSS *******/
 
