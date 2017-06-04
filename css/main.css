@@ -27,6 +27,21 @@ p {
   right: 50px;
 }
 
+.btn#roadmap-button {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.btn.btn-roadmap {
+  background: #fff;
+  border-color: #6d6e70;
+}
+.btn.btn-roadmap:hover,
+.btn.btn-roadmap:focus {
+  background: #2a95be;
+}
+
 h3#work-process {
   font-family: 'Raleway', sans-serif !important;
 }
@@ -44,6 +59,163 @@ h3#work-process {
     background-size: cover;
     color: #fff;
 }
+
+#kindergarten {
+  padding: 100px 0 70px;
+  background: #00b6f1;
+  color: #000;
+}
+#kindergarten h1,
+#kindergarten h2,
+#kindergarten h3,
+#kindergarten h4 {
+  color: #000;
+}
+#kindergarten strong {
+  display: block;
+  margin-bottom: 30px;
+}
+.kindergarten {
+  display: inline-block;
+  width: 140px;
+  height: 250px;
+  font-size: 24px;
+  line-height: 140px;
+  border: 3px solid #000;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+#firstSecond {
+  padding: 100px 0 70px;
+  background: #fbaf3f;
+  color: #000;
+}
+#firstSecond h1,
+#firstSecond h2,
+#firstSecond h3,
+#firstSecond h4 {
+  color: #000;
+}
+#firstSecond strong {
+  display: block;
+  margin-bottom: 30px;
+}
+.firstSecond {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  font-size: 24px;
+  line-height: 140px;
+  border: 3px solid #000;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+#thirdFourth {
+  padding: 100px 0 70px;
+  background: #914B8F;
+  color: #000;
+}
+#thirdFourth h1,
+#thirdFourth h2,
+#thirdFourth h3,
+#thirdFourth h4 {
+  color: #000;
+}
+#thirdFourth strong {
+  display: block;
+  margin-bottom: 30px;
+}
+.thirdFourth {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  font-size: 24px;
+  line-height: 140px;
+  border: 3px solid #000;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+#fifthSixth {
+  padding: 100px 0 70px;
+  background: #73c16a;
+  color: #000;
+}
+#fifthSixth h1,
+#fifthSixth h2,
+#fifthSixth h3,
+#fifthSixth h4 {
+  color: #000;
+}
+#fifthSixth strong {
+  display: block;
+  margin-bottom: 30px;
+}
+.fifthSixth {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  font-size: 24px;
+  line-height: 140px;
+  border: 3px solid #000;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+#seventhEighth {
+  padding: 100px 0 70px;
+  background: #5154A4;
+  color: #000;
+}
+#seventhEighth h1,
+#seventhEighth h2,
+#seventhEighth h3,
+#seventhEighth h4 {
+  color: #000;
+}
+#seventhEighth strong {
+  display: block;
+  margin-bottom: 30px;
+}
+.seventhEighth {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  font-size: 24px;
+  line-height: 140px;
+  border: 3px solid #000;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+#ninePlus {
+  padding: 100px 0 70px;
+  background: #ffff4d;
+  color: #000;
+}
+#ninePlus h1,
+#ninePlus h2,
+#ninePlus h3,
+#ninePlus h4 {
+  color: #000;
+}
+#ninePlus strong {
+  display: block;
+  margin-bottom: 30px;
+}
+.ninePlus {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  font-size: 24px;
+  line-height: 140px;
+  border: 3px solid #000;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
 
 /*********** END CHRISTINA CUSTOM CSS *******/
 
@@ -121,7 +293,7 @@ hr {
   left: 50%;
   margin-left: -70px;
   height: 1px;
-  background: #ebebeb;
+  background: #000;
 }
 .section-header .section-title:after {
   content: "";
@@ -131,9 +303,9 @@ hr {
   bottom: -11px;
   left: 50%;
   margin-left: -12px;
-  border: 5px solid #fff;
+  border: 5px solid #000;
   border-radius: 20px;
-  background: #45aed6;
+  background: #000;
 }
 .btn {
   border-width: 0;
@@ -726,32 +898,7 @@ ul.nostyle i {
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #eee;
 }
-#animated-number {
-  padding: 100px 0 70px;
-  background: #132125 url(../images/animated-number/bg.jpg) no-repeat 0 0;
-  background-size: cover;
-  color: #fff;
-}
-#animated-number h1,
-#animated-number h2,
-#animated-number h3,
-#animated-number h4 {
-  color: #fff;
-}
-#animated-number strong {
-  display: block;
-  margin-bottom: 30px;
-}
-.animated-number {
-  display: inline-block;
-  width: 140px;
-  height: 140px;
-  font-size: 24px;
-  line-height: 140px;
-  border: 3px solid #fff;
-  border-radius: 100px;
-  margin-bottom: 20px;
-}
+
 #pricing {
   padding: 100px 0 70px;
 }
