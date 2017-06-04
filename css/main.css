@@ -6,8 +6,12 @@
 
 #game {
     position: absolute;
-    top: 250px;
+    top: 200px;
     padding-bottom: 75px;
+}
+
+.webgl-content {
+  text-align: center;
 }
 
 #navbar {
@@ -398,6 +402,7 @@ body {
 
 body#game-page {
     background: #00c6f1;
+    text-align: center;
 }
 
 body#kinder-topics {
