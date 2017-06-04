@@ -1,5 +1,19 @@
 /*********** CHRISTINA CUSTOM CSS ************/ 
 
+.webgl-content {
+    z-index: 500;
+}
+
+#game {
+    position: absolute;
+    top: 200px;
+    padding-bottom: 75px;
+}
+
+.webgl-content {
+  text-align: center;
+}
+
 #navbar {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
@@ -12,6 +26,16 @@ h2 {
     text-transform: uppercase;
     position: relative;
     padding-bottom: 20px;
+    margin: 0 0 20px;
+} 
+
+h2.grade-header {
+  font-family: 'Raleway';
+  font-size: 65px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 50px;
     margin: 0 0 20px;
 } 
 
@@ -372,8 +396,13 @@ body {
   background: #FBAE57;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #64686d;
+  color: #000;
   line-height: 26px;
+}
+
+body#game-page {
+    background: #00c6f1;
+    text-align: center;
 }
 
 body#kinder-topics {
